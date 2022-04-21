@@ -1,0 +1,502 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: beige;
+}
+
+
+.titulo{
+    display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        padding: 40px;
+        font:bolder;
+        font-family: 'Anton', sans-serif;
+        font-style: italic;
+        color: rgb(35, 167, 35);
+        text-align: center;
+        font-size: 30px;
+        line-height: 300%;
+}
+.titulo__texto{
+    display: block;
+}
+/*navegador*/          
+
+nav ul{
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    }
+/*estilos de lista*/
+nav li a {
+    background-color:#000;
+    color:#fff;
+    font-family: 'anton', sans-serif;
+    text-decoration:none;
+    padding:10px 12px;
+    font-size: 20px;
+    }
+    /*posicion imagenes centrales*/
+
+.main div h3{
+    font-size: 35px;
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    color: rgb(35, 167, 35);
+}
+
+
+/*Fondo footer*/
+footer{
+    display: flex;
+    background-image: url("../Assets/imagenes/frente.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+/*Posicion redes de footer*/
+
+.redes li{
+    margin: 10px;
+}
+/*tamaño de imagen de redes*/
+.redes__tamaño{
+    width: 70px;
+    height: 70px;
+}
+/*fuente texto redes*/
+.redes p{
+    font:bolder;
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+}
+/*posicion mapa*/
+.mapa{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 50%;
+    padding: 15px;
+}
+/*fuente mapa*/
+.mapa p {
+    display: inline-block;
+    font:bolder;
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    }
+.mapa p span{
+    display: block;
+}
+
+/*Pagina productos*/
+
+
+/*tarjetas genericas*/
+.tarjeta{
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    margin:10px;
+    border: 5px solid #000;
+    border-radius: 10px;
+}
+.tarjeta img{
+padding-left: 3rem;
+}
+.tarjeta p {
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+.tarjeta a{
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    color: rgb(35, 167, 35);
+    background-color: #000;
+    border: 2px solid green;
+    position: relative;
+    left: 90px;
+    top: 15px;
+    padding: 5px;
+    
+}
+.categorias li h2{
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    font-size: 35px;
+    color: rgb(35, 167, 35);
+    
+    padding: 1rem;
+    margin: 1rem;
+}
+.tarjeta--reel{
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    margin:10px;
+    border: 5px solid #000;
+    border-radius: 10px;
+}
+.tarjeta--reel img{
+    padding-left: 3rem;
+ }
+ .tarjeta--reel a{
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    color: rgb(35, 167, 35);
+    background-color: #000;
+    border: 2px solid green;
+    position: relative;
+    left: 90px;
+    top: 15px;
+    padding: 5px;
+    
+}
+.tarjeta--reel p {
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+/*Excursiones*/
+.videos{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.publicaciones{
+    display: flex;
+    justify-content: space-around;
+}
+/*Reservas*/
+.formulario{
+    width: 100%;
+    background-color: #fff;
+    border: 5px solid #000;
+}
+.formulario p{
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    color: rgb(35, 167, 35);
+    text-align: center;
+    font-size: 20px;
+}
+.formulario__fuente{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.formulario__fuente label{
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    color: #000;
+}
+.formulario__fuente--miembros{
+    display: flex;
+    justify-content: stretch;
+    
+}
+.formulario__fuente--miembros label{
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    color: #000;
+}
+.botones{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contacto{
+    display: block;
+    
+}
+.contacto__text{
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    color: #000;
+}
+/*Nosotros*/
+.subtitulo{
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    color: rgb(35, 167, 35);
+    text-align: center;
+    padding: 2rem;
+    font-size: 30px;
+}
+.setup1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.setup2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.setup2 ul li{
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    list-style:disc;
+    font-size: 19px;
+}
+.ejemplares{
+    display: flex;
+}
+.momentos{
+    display: flex;
+}
+
+@media (min-width:320px) {
+    .indexStr{
+        display:grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 130px 30px auto auto;
+        grid-template-areas: "header header header header"
+                             "nav    nav    nav    nav"
+                             "main   main   main   main"
+                             "footer footer footer footer";
+        row-gap: 30px;                     
+    }
+    .nav{
+        grid-area: nav;
+    }
+    .main{
+        grid-area: main;
+    }
+    .footer{
+        grid-area: footer;
+    }
+    .titulo{
+         grid-area: header;
+         font-size: 11px;
+         align-items: center;
+    
+    }
+    nav li a {
+        padding:10px 12px;
+        font-size: 8px;
+        }
+    .ejemplares{
+        flex-direction: column;
+    }
+    .momentos{
+        flex-direction: column-reverse;
+    }
+    .mapa{
+        display: flex;
+        flex-direction: column;
+    }
+    .mapa iframe{
+        width: 150px;
+    }
+    .mapa p{
+        font-size: 15px;
+    }
+    .redes{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+    .redes p{
+        font-size: 20px;
+    }
+    .main-reservas{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .formulario{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .formulario p{
+        font-size: 20px;
+    }
+    .formulario__fuente{
+        padding: 10px;
+    }
+    .formulario__fuente--miembros{
+        padding: 10px;
+    }
+    .videos{
+        flex-wrap: wrap;
+
+    }
+    .publicaciones{
+        flex-wrap: wrap;
+    }
+    .subtitulo{
+        font-size: 20px;
+    }
+    .setup1{
+        flex-wrap: wrap;
+    }
+    .setup2{
+        flex-wrap: wrap;
+    }
+    .setup1 img{
+        width: 300px;
+    }
+   
+   .fb{
+       color: blue;
+   }
+   .ig{
+       color: rgb(211, 53, 119);
+   }
+   .img__logo{
+    width: 100px;
+    height: 100px;
+ }
+
+
+}
+@media (min-width:768px){
+    .indexStr{
+        display:grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 150px 50px auto 300px;
+        grid-template-areas: "header header header header"
+                             "nav    nav    nav    nav"
+                             "main   main   main   main"
+                             "footer footer footer footer";
+        row-gap: 30px;                     
+    }
+    .nav{
+        grid-area: nav;
+    }
+    .main{
+        grid-area: main;
+    }
+    .footer{
+        grid-area: footer;
+    }
+    .titulo{
+         grid-area: header;
+         font-size: 23px;
+         align-items: center;
+         padding: 20px;
+    }
+    .titulo img{
+        width: 200px;
+        height: 200px;
+    }
+    nav li a {
+        padding:10px 12px;
+        font-size: 20px;
+    }
+    .ejemplares{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+    .momentos{
+        
+        flex-direction: row-reverse;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 50px 0px;
+        text-align: center;
+    }
+        .redes{
+            width: 300px;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            justify-content: flex-end;
+            padding: 20px;
+        }
+        .separacion{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            
+        }
+        .formulario{
+            width: 400px;
+            justify-content: center;
+        }
+        .formulario p{
+            font-size: 20px;
+        }
+        .main-reservas{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .setup2 ul li{
+            list-style: none;
+        }
+}
+@media (min-width:1024px){
+    .indexStr{
+        display:grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 150px 50px auto 300px;
+        grid-template-areas: "header header header header"
+                             "nav    nav    nav    nav"
+                             "main   main   main   main"
+                             "footer footer footer footer";
+        row-gap: 30px;                     
+    }
+    .nav{
+        grid-area: nav;
+    }
+    .main{
+        grid-area: main;
+    }
+    .footer{
+        grid-area: footer;
+    }
+    .titulo{
+         grid-area: header;
+         font-size: 23px;
+         align-items: center;
+         padding: 20px;
+    }
+    .ejemplares{
+        flex-direction: row-reverse;
+    }
+    .mapa iframe{
+        width: 200px;
+    }
+    .mapa p{
+        font-size: 20px;
+    }
+    .redes{
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+    }
+    .redes img{
+        width: 100px;
+        height: 100px;
+    }
+    .redes p{
+        font-size: 25px;
+    }
+    .formulario{
+        width: 600px;
+        justify-content: center;
+    }
+    .formulario p{
+        font-size: 20px;
+    }
+    .videos{
+        flex-wrap: nowrap;
+    }
+}

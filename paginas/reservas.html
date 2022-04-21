@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas- La verde pesca</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../Assets/imagenes/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/8d64652fd8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="indexStr">
+    <header class="titulo">
+      <img class="img__logo" src="../Assets/imagenes/icono.png" alt="logo" width="200px" height="200px">
+      <div class="titulo__texto">
+      <h1>Reservas</h1>
+      </div>
+    </header>
+<!--navegador-->
+<nav class="nav">
+  <ul>
+    <li><a class="nav__trans"  href="../index.html">Inicio</a></li>
+    <li><a class="nav__trans"  href="./Productos.html">Productos</a></li>
+    <li><a class="nav__trans"  href="./excursiones.html">Excursiones</a></li>
+    <li><a class="nav__trans"  href="./reservas.html">Reservas</a></li>
+    <li><a class="nav__trans"  href="./nosotros.html">Quienes somos</a></li>
+  </ul>
+</nav>
+ <main class="main">
+   <div class="main-reservas">
+    <section class="formulario">
+      <form> 
+        <p>datos del organizador</p>
+        <!--Nombre y apellido-->
+      <div class="formulario__fuente">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre">
+      </div>
+        <div class="formulario__fuente">
+          <label for="Apellido">Apellido:</label>
+        <input type="text" name="Apellido">
+      </div>
+        <!--telefono-->
+        <div class="formulario__fuente">
+        <label for="telefono">Telefono:</label>
+        <input type="number" name="telefono">
+        </div>
+        <!--Mail-->
+        <div class="formulario__fuente">
+        <label for="mail">Mail:</label>
+        <input type="email" name="mail">    
+      </div> 
+    <!--Fecha-->
+    <p>datos de la excursion</p>
+    <div class="formulario__fuente">  
+        <label for="fecha"> Fecha:</label>
+        <input type="date" name="fecha">
+        </div>
+    <!--Noches-->
+      <div class="formulario__fuente">
+        <label for="noches"> 1 Noche</label>
+        <input type="radio" value="1" name="noches">
+      </div>
+      <div class="formulario__fuente">
+        <label for="noches">2 Noches</label>
+        <input type="radio" value="2" name="noches">
+      </div>
+        <!--miembros-->
+      <div class="formulario__fuente--miembros">
+        <label for="miembros">Integrantes:</label>
+        <select name="miembros">
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+        </select>
+      </div>
+      <!--botones-->
+        <div class="botones">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="borrar">
+        </div>
+    </form>
+</section>
+<div class="contacto">
+    <h2 class="contacto__text">Telefono (maxi): 1165157157</h2>
+    <h2 class="contacto__text">Telefono (ivan): 11595314109</h2>
+        <h2 class="contacto__text">Redes Sociales</h2>
+        <a href="https://www.facebook.com/Islaprivadapesquerolaverde27" target="about_blank" alt="facebook"><img src="../Assets/imagenes/f.jpg" width="40"></a>
+        <a href="https://www.instagram.com/laverdeoficial.ok/" target="about_blank" alt="instagram"><img src="../Assets/imagenes/ig.jpg" width="40"></a>
+</div>
+</div>
+</main> 
+<footer class="footer">
+  <div class="mapa">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d126100.0271764571!2d-58.822687223726184!3d-33.84692554211379!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1644a367d94e8671!2sPesquero%20la%20verde!5e0!3m2!1ses-419!2sar!4v1647924093327!5m2!1ses-419!2sar" width="200" height="200" style="border: 0" allowfullscreen=""loading="lazy"></iframe>
+    <p>Entre rios- Ruta 12, km 117,5 <span>Telefono(maxi):1565157157</span></p>
+  </div>
+    <ul class="redes">
+    <li ><a class="fb" href="https://www.facebook.com/Islaprivadapesquerolaverde27" target="about_blank"><i class="fa-brands fa-facebook-square fa-6x" ></i></a></li>
+    <li ><a class="ig" href="https://www.instagram.com/laverdeoficial.ok/" target="about_blank"><i class="fa-brands fa-instagram-square fa-6x"></i></a></li>
+    <li><p>seguinos!</p></li>
+  </ul>
+  
+</footer>
+</body>
+</html>
