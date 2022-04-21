@@ -358,7 +358,19 @@ padding-left: 3rem;
    .img__logo{
     width: 100px;
     height: 100px;
+    transition: all 5s;
  }
+ .img__logo:hover{
+        
+    transform: rotateY(360deg);
+}
+.tarjeta__comprar:hover{
+   background-color: white;
+}
+.nav__trans:hover{
+    background-color: rgb(35, 167, 35);
+    border-radius: 10px;
+}
 
 
 }
