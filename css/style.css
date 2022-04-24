@@ -37,6 +37,16 @@ body{
 .redes a i:hover{
     color: aliceblue;
 }
+#galeria .col-lg-4{
+    padding: 25px;
+}
+#galeria img{
+    width:100%;
+    height: 500px;
+}
+#galeria img:hover{
+    border: 5px solid beige
+}
 @media (max-width:767px){
 
     #menu li a{
