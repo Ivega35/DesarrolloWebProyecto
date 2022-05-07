@@ -1,0 +1,33 @@
+@import "_variables";
+.boton{
+    
+    border: map-get($boton , borde );
+    padding: map-get($boton, padding );
+    border-radius: map-get($boton, radio );
+        .boton-texto{
+            color:white;
+        }
+        &:hover{
+        background-color: #198754;
+            .boton-texto{
+                color: black;
+            }
+        
+        }
+}
+
+.boton-ropa{
+    @extend .boton;
+    @include propiedadesPrincipales( black,300px ,auto )
+}
+.boton-cañas{
+    @extend .boton;
+    @include propiedadesPrincipales(orange,300px ,auto );
+    .boton-texto{
+        color:black;
+    }
+}
+.boton-reel{
+    @extend .boton;
+    @include propiedadesPrincipales(rgb(22, 113, 189),300px ,auto );
+}
