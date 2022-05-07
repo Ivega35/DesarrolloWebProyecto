@@ -9,6 +9,7 @@ $boton:(
     borde:0,
     padding:10px 15px,
     radio: 5px,
+    color: white
     );
 @mixin propiedadesPrincipales ($bg-color, $width, $heigth) {
         background-color: $bg-color;

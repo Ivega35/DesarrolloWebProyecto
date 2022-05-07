@@ -26,20 +26,15 @@ body {
 }
 
 .boton, .boton-ropa, .boton-cañas, .boton-reel {
+  text-align: center;
   border: 0;
   padding: 10px 15px;
   border-radius: 5px;
-}
-
-.boton .boton-texto, .boton-ropa .boton-texto, .boton-cañas .boton-texto, .boton-reel .boton-texto {
   color: white;
 }
 
 .boton:hover, .boton-ropa:hover, .boton-cañas:hover, .boton-reel:hover {
   background-color: #198754;
-}
-
-.boton:hover .boton-texto, .boton-ropa:hover .boton-texto, .boton-cañas:hover .boton-texto, .boton-reel:hover .boton-texto {
   color: black;
 }
 
@@ -53,9 +48,6 @@ body {
   background-color: orange;
   width: 300px;
   height: auto;
-}
-
-.boton-cañas .boton-texto {
   color: black;
 }
 
